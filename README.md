@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/sanschiko3-dotcom/csv-reader-speed-01-run-20261121/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
 [![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/sanschiko3-dotcom/csv-reader-speed-01-run-20261121/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
 
-Dependency-free CSV reader preserving csv-reader 1.0.0 error ordering and broken-record handling. Uses a plain-line split fast path and sliced fields. Built for [make.fun](https://make.fun).
+Dependency-free CSV reader preserving csv-reader 1.0.0 error ordering and broken-record handling. Uses a plain-line indexOf field loop and inlined quoted-field scanning. Built for [make.fun](https://make.fun).
 
 ## Run it
 
